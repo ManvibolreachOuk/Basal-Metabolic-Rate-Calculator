@@ -1,0 +1,67 @@
+<!-- Powered by Manvibolreach Ouk - Student ID: 301224112 - Created on May 25, 2022 at 13:50-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Manvibolreach Ouk - Assignment 1 - COMP 225</title>
+    <meta content="BMR Calculation" name=" keyboard ">
+    <meta content="Javascript And HTML BMR" name="description ">
+    <link rel="stylesheet " type="text/css " href="Assignment1.css.css ">
+</head>
+
+<body>
+    <main>
+        <img src="Calo.jpg" alt="Pic" width="1100px" height="400px">
+        <div class="navbar ">
+            <a href=" ">Metric BMR Calculator</a>
+        </div>
+        <form>
+
+            <fieldset>
+                <label for="sex">Gender <br>
+                <input type="radio" name="sex" id="male" value="1" required="required" />Male
+                <input type="radio" name="sex" id="female" value="2" required="required" />Female
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="age">Age:</label>
+                <input type="type" id="age" name="age" required="required"><br>
+            </fieldset>
+            <fieldset>
+                <label for="height">Height:</label>
+                <input type="type" id="height" name="height" required="required">(cm)<br>
+            </fieldset>
+
+            <fieldset>
+                <label for="weight">Weight:</label>
+                <input type="type" id="weight" name="weight" required="required">(kg)<br>
+            </fieldset>
+            <fieldset>
+                <p>Please select your activity level:</p>
+                <input type="radio" id="Se" name="l1" value="1.2" required="required">
+                <label for="l1">Sedentary (little or no exercise)</label><br>
+                <input type="radio" id="Li" name="l1" value="1.375" required="required">
+                <label for="l2">Lightly active (light exercise/sports 1-3 days per week)</label><br>
+
+                <input type="radio" id="Mo" name="l1" value="1.55" required="required">
+                <label for="l3">Moderately active (moderate exercise/sports 3-5 days per week)</label><br>
+
+                <input type="radio" id="Ve" name="l1" value="1.725" required="required">
+                <label for="l4">Very active (hard exercise/sports 6-7 days a week)</label><br>
+
+                <input type="radio" id="Su" name="l1" value="1.9" required="required">
+                <label for="l5">Super active (very hard exercise or sports and a physical job or 2x training)</label><br>
+            </fieldset>
+            <fieldset>
+                <input type="button" value="Calculate BMR" onclick="Compute()">
+                <h3>Your daily energy expenditure is: <span id="output">?</span></h3>
+                <hr style="border-style:solid; border-color:rgb(12, 12, 12); border-width:2px; ">
+                <h5 style="font-family: Verdana; font-size:small; "><span style="color:rgb(92, 95, 94) "> &copy;&nbsp;&nbsp; Copyright Manvibolreach Ouk - ID number: 301224112 - Summer Semester</span></h5>
+            </fieldset>
+        </form>
+        <script type="text/javascript " async src="javascript.java "></script>
+    </main>
+
+</html>
+</body>
